@@ -1,0 +1,10 @@
+String gewicht ="Met een gewicht van ";
+int KG= 90;
+String lengte =" kg en een lengte van "; 
+int CM = 186;
+String BMIzin =" cm, is jouw BMI ";
+float BMI = 0;
+BMI = 90/(1.86*1.86);
+println(BMI);
+int BMIcijfer  = 26;
+println(gewicht + KG + lengte + CM + BMIzin + BMIcijfer);
